@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -30,7 +31,13 @@ section{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
-    border: 2px solid red;
     background-repeat: no-repeat; /* this is use for not repeting the background image */
-
 }
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* 1-h1(welcome part, paragraph and link button) 2-image 3-make a section for set up the div side by side 4- top background banner set up
+5-  */
