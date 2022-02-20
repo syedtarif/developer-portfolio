@@ -1,0 +1,36 @@
+ body{ /*this style use in body tag because of we want to apply this style in the whole body */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: #2cb3e9;
+    /* background-image: linear-gradient(#2cb3e9, #ffb427); */
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%; /*this command for doing image in right side */
+}
+.link-button{
+    text-decoration: none; /* this command use for removing link underline */
+    /* background-color: #2cb3e9; */
+    background-image: linear-gradient(#2cb3e9, #ffb427);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px; 
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    border: 2px solid red;
+    background-repeat: no-repeat; /* this is use for not repeting the background image */
+
+}
