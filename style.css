@@ -5,11 +5,14 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-highlight{
     color: #2cb3e9;
     /* background-image: linear-gradient(#2cb3e9, #ffb427); */
 }
-section{
+.flaxible-conteiner{
     display: flex;
     margin-bottom: 100px;
 }
@@ -37,6 +40,19 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+.experiences-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 /* 1-h1(welcome part, paragraph and link button) 2-image 3-make a section for set up the div side by side 4- top background banner set up
