@@ -26,7 +26,7 @@ h2{
 .link-button{
     text-decoration: none; /* this command use for removing link underline */
     /* background-color: #2cb3e9; */
-    background-image: linear-gradient(#2cb3e9, #ffb427);
+    background-image: linear-gradient(45deg, #2cb3e9, #ffb427);
     padding: 10px 40px;
     color: white;
     font-weight: 700;
@@ -46,13 +46,26 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
+    box-shadow: 10px 10px 40px #2cb3e9;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px grey;
+    border-left: 10px solid;
 }
 .experiences-part{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#baby-daveloper{
+    border-image: linear-gradient(#2cb3e9, #ffb427);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-image: linear-gradient(#fa745e, #ffb427);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    color: gray;
 }
 
 /* 1-h1(welcome part, paragraph and link button) 2-image 3-make a section for set up the div side by side 4- top background banner set up
